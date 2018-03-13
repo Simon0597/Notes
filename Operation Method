@@ -1,3 +1,4 @@
+几种操作 ：
 sort()
 
 push() , pop() , shift() , unshift()
@@ -5,17 +6,17 @@ push() , pop() , shift() , unshift()
 concat() , slice() , splice()的区别
 /*****************************************************************/
   function compare(v1,v2){
-				return v1 - v2;
-			}
+	return v1 - v2; //升序
+  }
 
   var values = [ 0 , 1 , 15 , 10 , 5];
 
   values.sort();
-  console.log(values);//[ 0 , 1 , 10 , 15 , 5 ]
+  console.log(values);//[ 0 , 1 , 10 , 15 , 5 ] 
 
   values.sort(compare);
   console.log(values);//[ 0 , 1 , 5 , 10 , 15 ]
-
+/*****************************************************************/
   values.push(2);
   console.log(values);//[ 0 , 1 , 5 , 10 , 15 , 2 ]
 
@@ -27,7 +28,7 @@ concat() , slice() , splice()的区别
 
   values.unshift(3,4);
   console.log(values);//[ 3, 4 , 1 , 5 , 10 , 15 ]
-
+/*****************************************************************/
   var newValues1 = values.concat(1,4);//在后添加  
   console.log(newValues1);//[ 3, 4 , 1 , 5 , 10 , 15 , 1 , 4 ]
   console.log(values);//不改变原数组  [ 3, 4 , 1 , 5 , 10 , 15 ]
