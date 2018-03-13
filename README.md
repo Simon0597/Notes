@@ -1,2 +1,2 @@
 # Notes
-some simple notes
+some simple study notes
