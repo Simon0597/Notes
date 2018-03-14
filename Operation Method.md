@@ -1,4 +1,4 @@
-几种操作 ：
+# 几种操作 ：
 ## sort()
  
 ## push() , pop() , shift() , unshift()
