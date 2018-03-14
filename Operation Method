@@ -1,12 +1,12 @@
 几种操作 ：
-sort()
-
-push() , pop() , shift() , unshift()
+## sort()
  
-concat() , slice() , splice()的区别
+## push() , pop() , shift() , unshift()
+ 
+## concat() , slice() , splice()的区别
 /*****************************************************************/
   function compare(v1,v2){
-	return v1 - v2; //升序
+	return v1 - v2; **//升序
   }
 
   var values = [ 0 , 1 , 15 , 10 , 5];
