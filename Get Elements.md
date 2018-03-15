@@ -31,13 +31,13 @@
 
 	<script type="text/javascript">
 		var bigDiv = document.getElementById("big"),
-		smallDiv = bigDiv.getElementsByClassName("small");
+		smallDiv = bigDiv.getElementsByClassName("small"),
 		smallDiv2 = bigDiv.getElementsByClassName("small2");
 		console.log(smallDiv)
 		console.log(smallDiv2)
 	</script>
 ```        
- **以上的smallDiv打印出来的是 HTMLCollection [div.small] 而smallDiv2打印出来的是 HTMLCollection [0]**
+ **以上的smallDiv打印出来的是 HTMLCollection [div.small] 而smallDiv2打印出来的是 HTMLCollection []**
 > ## innerHTML , innerText , textContent
 - 三者都是获取元素内部的文字内容
 - console.log( ele.innerText );	//`不可以`获取隐藏元素的文字内容
