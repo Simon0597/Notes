@@ -22,7 +22,7 @@
 **事件冒泡指子元素触发事件的时候，会冒泡（触发）`父级`的相同的事件**
 ### 阻止冒泡：
 - 非标准：ev.stopPopagation(); 
-- 非标准：ev.cancelBubble=true;
+- 非标准：ev.cancelBubble=true; **ie9以下也支持**
 ```rudy
   if(e.stopPropagation){
     e.stopPropagation()
