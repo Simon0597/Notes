@@ -24,18 +24,18 @@
   . 及[]的运用
       
 ```python
-    <div id="big">1
-			<div class="small">2</div>
-		</div>
-		<div class="small2">3</div>
+	<div id="big">1
+		<div class="small">2</div>
+	</div>
+	<div class="small2">3</div>
 
-		<script type="text/javascript">
-			  var bigDiv = document.getElementById("big"),
-        smallDiv = bigDiv.getElementsByClassName("small");
-        smallDiv2 = bigDiv.getElementsByClassName("small2");
-				console.log(smallDiv)
-        console.log(smallDiv2)
-		</script>
+	<script type="text/javascript">
+		var bigDiv = document.getElementById("big"),
+		smallDiv = bigDiv.getElementsByClassName("small");
+		smallDiv2 = bigDiv.getElementsByClassName("small2");
+		console.log(smallDiv)
+		console.log(smallDiv2)
+	</script>
 ```        
  **以上的smallDiv打印出来的是 HTMLCollection [div.small] 而smallDiv2打印出来的是 HTMLCollection [0]**
 > ## innerHTML , innerText , textContent
