@@ -3,5 +3,7 @@
 > ## 操作后元素仍占位的操作
 - transform
 > ## 对于占位元素，怎么获取到偏移过后的元素位置？
-- 使用 getComputedStyle(j)['attr'] 
-兼容性性代码在另一篇(《》)[]讲到过
+- 使用 getComputedStyle(obj)['attr'] 
+
+兼容性性代码在另一篇[《获取样式》](https://github.com/Simon0597/Notes/blob/master/CSS/Get-Style.md) 中讲到过。
+ 
