@@ -1,5 +1,5 @@
 # 封装css3的Transform属性值
-```ruby
+```javascript
 <script>
         // 2个参数 是获取属性值
         // 3个参数 是设置属性值
