@@ -5,3 +5,4 @@ some simple study notes
 > ## 3.[PHP](https://github.com/Simon0597/Notes/tree/master/PHP)
 > ## 4.[MySQL](https://github.com/Simon0597/Notes/tree/master/MySQL)
 > ## 5.[Interview](https://github.com/Simon0597/Notes/tree/master/Interview%20questions)
+> ## 6.[es6](https://github.com/Simon0597/Notes/tree/master/es6)
